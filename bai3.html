@@ -10,9 +10,7 @@
 </html>
 
 <script>
-    let array = prompt('Nhập chuỗi bạn cần kiểm tra!');
-    array.toString()
-    array = array.toLowerCase()
+
     function timNguyenAm(arr) {
         let count = 0
         let nguyenAm = ['a', 'i', 'u', 'e', 'o'];
@@ -29,5 +27,10 @@
             return false
         }
     }
+
+
+    let array = prompt('Nhập chuỗi bạn cần kiểm tra!');
+    array.toString()
+    array = array.toLowerCase()
     console.log(timNguyenAm(array))
 </script>
